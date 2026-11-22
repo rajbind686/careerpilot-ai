@@ -1,0 +1,25 @@
+# Virtual environments (macOS/local Python binaries must not overwrite Linux container)
+venv/
+.venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# CRITICAL SECURITY: Never copy local secrets into image layers
+.env
+.env.*
+*.env
+
+# Local development and OS metadata
+.DS_Store
+.git
+.gitignore
+.vscode/
+.idea/
+
+# Test suites (keep production image lean)
+tests/

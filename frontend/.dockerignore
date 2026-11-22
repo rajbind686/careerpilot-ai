@@ -1,0 +1,17 @@
+# Local dependencies (container must install clean Linux dependencies)
+node_modules/
+
+# Local build outputs
+dist/
+
+# Environment files and secrets
+.env
+.env.*
+*.env
+
+# Local OS and IDE metadata
+.DS_Store
+.git
+.gitignore
+.vscode/
+.idea/
